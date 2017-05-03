@@ -42,7 +42,7 @@ int main(void)
     exit(1);
   }
 
-  int i, j, m, n, a[100][100], s[100], t = 0;
+  int i, j, a[100][100], s[100], t = 0;
   char c;
   int matrix_size = 0;
   while ((c = getc(f)) != EOF)
